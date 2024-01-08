@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Pacifico&family=Playfair+Display&family=Rubik+Doodle+Triangles&family=Rubik+Maps&family=Sacramento&family=Unica+One&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.navbar{
+    height: 67px;
+    font-family: 'unica one';
+    
+}
+.offcanvas{
+    background-color: black;
+    font-size: x-large;
+}
+.offcanvas-title{
+    font-size: xx-large;
+}
+.foto1 {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover; 
+    opacity: 0.65;
+}
+.fotoja{
+    background-color: black;
+}
+
+.qendro {
+    font-family: 'Kalnia';
+    font-size: 6vw;
+    position: relative; 
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.quota{
+    font-family: 'Sacramento';
+    font-size: 7vw;
+    font-weight: 400;
+    position: relative; 
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.buto{
+    font-family: 'Unica one';
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fillimrreshti{
+    text-align: center;
+    padding: 2%;
+    font-family: 'unica one';
+}
+.fillimrreshti h1{
+    font-size: 5vw;
+}
+
+
+
+.rowi{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+    color: black;
+}
+.emri{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3%;
+    font-size: larger;
+}
+
+/* Zoomi on hover */
+.divi {
+    position: relative;
+    overflow: hidden;
+    font-family: 'unica one';
+    padding: 0%;
+    width: 46%;
+    margin: 2%;
+}
+.listaimg {
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.listaimg:hover {
+    transform: scale(1.1);
+}
+
+.viewmore:hover{
+    animation: fadeIn 0.5s ease-in-out ;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.imi{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width:750px) {
+    .qendro{
+        font-size: 8vw ;
+    }
+    .quota{
+        font-size: 9vw;
+    }
+    .offcanvas {
+        width: 50% !important;
+    }
+    .fillimrreshti h1{
+        font-size: 6vw;
+    }
+}
+@media only screen and (max-width:580px) {
+    .qendro{
+        font-size: 10vw ;
+    }
+    .quota{
+        font-size: 11vw;
+    }
+    .offcanvas{
+        font-size: x-large;
+    }
+    .offcanvas-title{
+        font-size: x-large;
+    }
+    .fillimrreshti h1{
+        font-size: 7vw;
+    }
+}
+@media only screen and (max-width:450px) {
+    .qendro{
+        font-size: 14vw ;
+        top: 35%;
+    }
+    .quota{
+        font-size: 11vw;
+    }
+    .fillimrreshti h1{
+        padding-top: 7%;
+        font-size: 9vw;
+    }
+    .neighbours p{
+        font-size: small;
+    }
+}
+
+.neighbours{
+    font-family: 'unica one';
+    text-align: center;
+    padding-top: 7%;
+}
+.neighbours h1{
+    font-size: 5vw;
+}
+.ring{
+    text-align: center;
+    padding-top: 7%;
+    
+}
+.sophie{
+    text-align: center;
+    padding-top: 3%;
+    
+}
+@media only screen and (max-width: 992px) {
+    .ring{
+        text-align: center;
+        transform: translateX(-6%);
+        padding-top: 2%;
+        padding-left: 10%;
+    }
+    .sophie{
+        text-align: center;
+    }
+}
+.sophie .ring{
+    position: relative;
+    overflow: hidden;
+}
+.nigga{
+    width: 60%;
+    transform: translate(0.3s) ease-in-out;
+}
+.nigga:hover{
+    transform: scale(1.1);
+}
+@media only screen and (max-width: 992px) {
+    .sophie .ring{
+        position: relative;
+        overflow: hidden;
+    }
+    .nigga{
+        width: 40%;
+        transform: translate(0.3s) ease-in-out;
+    }
+    .nigga:hover{
+        transform: scale(1.1);
+    }
+    .divi{
+        padding: 3%;
+    }
+}
+.lernmori{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.fundi{
+    background-color: black;
+    padding: 3% 5% 5%;
+}
+.rrimene{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'unica one' ;
+    padding: 3%;
+}
+.c1 a{
+    color: white;
+    font-family: 'unica one' ;
+    text-decoration: none;
+}
+.c1 a:hover{
+    opacity: 0.75;
+}
+.uni{
+    padding-left: 5%;
+}
+.col-lg-4{
+    padding: 2%;
+}
+.map{
+    height: 25vw;
+}
+
+footer{
+    font-size: 1.7vw;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 990px) and (min-width: 550px){
+    .c1{
+        width: 50%;
+    }
+    .mapiii{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px){
+    .c1{
+        padding: 10%;
+    }
+}
+.bluja{
+    padding: 0%;
+}
+
+
+
+
+.feel {
+    font-family: 'unica one';
+    position: relative; 
+    z-index: 1; 
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 56px!important;
+    line-height: 56px!important;
+}
+@media only screen and (min-width:800px){
+    .feel{
+        font-size: 7vw!important;
+        line-height: 7vw!important;
+    }
+}
+.rowstay{
+    padding: 3% 10% ;
+}
+.rowstay h1{
+    color: black;
+}
+.textstay h1{
+    font-family: 'unica one';
+    font-size: 7vw;
+    line-height: 7vw;
+    text-align: center;
+}
+.textstay p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-top: 5%;
+    color: rgb(95, 94, 94);
+}
+.staytxtft{
+    text-align: center;
+}
+.btntxt{
+    text-align: center;
+    padding-top: 5%;
+}
+.booktn{
+    padding: 2% 8%;
+}
+.btntxt h1{
+    padding: 5%;
+}
+
+@media only screen and (max-width:400px){
+    .buto{
+        font-family: 'Unica one';
+        position: absolute;
+        z-index: 1;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

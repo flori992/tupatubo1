@@ -1,0 +1,317 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Montserrat+Alternates:wght@400;600&family=Pacifico&family=Playfair+Display&family=Rubik+Doodle+Triangles&family=Rubik+Maps&family=Sacramento&family=Unica+One&display=swap');
+
+.ufill{
+    text-align: center;
+}
+.tt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    padding: 1% 8%;
+    opacity: 0.8;
+}
+.tebohemiani{
+    text-align: center;
+
+}
+.bohe{
+    padding: 0% 5%;
+}
+
+.bohefoto{
+    padding: 3% 8%;
+}
+.bohfoto img{
+    width: 100%;
+    padding-top: 2%;
+}
+
+.gjethe{
+    width: 100%;
+    height: 30vw;
+    opacity: 0.3;
+}
+.gjeth{
+    background-color: black;
+    position: relative;
+    font-family: 'unica';
+}
+.gjeth h1{
+    font-family: 'kalnia';
+}
+.lofti{
+    position: relative;
+    z-index: 2;
+    top: 15%;
+    left: 50%;
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+
+}
+.c10{
+    position: relative;
+    z-index: 1;
+    top: 30%;
+    left: 5%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+}
+.c11{
+    position: relative;
+    z-index: 1;
+    top: 30%;
+    left: 33%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+}
+.c12{
+    position: relative;
+    z-index: 1;
+    top: 30%;
+    left: 66%;
+    position: absolute;
+    color: white;
+    font-size: 19px;
+}
+.walk{
+    padding: 5%;
+    text-align: center;
+}
+.walk h1{
+    font-family: 'montserrat alternates';
+    font-weight: 600;
+    font-size: 35px;
+}
+.sc{
+    width: 100% ;
+}
+
+@media only screen and (max-width:992px){
+    
+    .gjethe{
+        width: 100%;
+        height: 80vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 22%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 45%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 68%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:750px){
+    .gjethe{
+        width: 100%;
+        height: 100vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 22%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 50%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 77%;
+        left: 35%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:580px){
+    .gjethe{
+        width: 100%;
+        height: 100vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 22%;
+        left: 25%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 50%;
+        left: 25%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 77%;
+        left: 25%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:490px){
+    .gjethe{
+        width: 100%;
+        height: 110vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 22%;
+        left: 20%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 50%;
+        left: 20%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 77%;
+        left: 20%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width:450px){
+    .walk{
+        padding: 4% 12%;
+    }
+    .walk .col-lg-4{
+        padding-top: 8%;
+    }
+    .walk h1{
+        font-family: 'unica one';
+        font-size: x-large;
+        color: black;
+    }
+    .gjethe{
+        width: 100%;
+        height: 120vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 11%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 39%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 67%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 19px;
+    }
+    .lofti{
+        font-size: 5.5vw;
+        top: 7%;
+    }
+}
+@media only screen and (max-width:400px){
+    .gjethe{
+        width: 100%;
+        height: 120vw;
+        opacity: 0.3;
+    }
+    .c10{
+        position: relative;
+        z-index: 1;
+        top: 11%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 17px;
+    }
+    .c11{
+        position: relative;
+        z-index: 1;
+        top: 41%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 17px;
+    }
+    .c12{
+        position: relative;
+        z-index: 1;
+        top: 71%;
+        left: 12%;
+        position: absolute;
+        color: white;
+        font-size: 17px;
+    }
+    .lofti{
+        font-size: 5.5vw;
+        top: 7%;
+    }
+}
